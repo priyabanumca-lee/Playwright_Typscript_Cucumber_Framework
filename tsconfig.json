@@ -1,0 +1,9 @@
+{
+    "compilerOptions" : {
+        "typeRoots": [
+            "src/helper/env.d.ts",
+            "./node_modules/@types"
+
+        ]
+    }
+}

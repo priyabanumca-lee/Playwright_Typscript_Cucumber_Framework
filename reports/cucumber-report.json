@@ -1,0 +1,165 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page-validation;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "login with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1151126899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7716794598
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 731158300
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter valid \"admin_UHHJD&%&^HJKHJ\" and \"admin123_UT^&%^&TUG\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:43"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2977432998
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1176790499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verify error message for invalid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:49"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-page-validation;login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "login with invalid credentials",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1149263900
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7715483299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 735887000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter valid \"user1_GHUGUTU^%^&\" and \"pass123_*&^&HGHJ\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:43"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2927483999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1086099400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verify error message for invalid credentials",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:49"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Page Validation",
+    "tags": [],
+    "uri": "src\\test\\features\\loginExample.feature"
+  }
+]

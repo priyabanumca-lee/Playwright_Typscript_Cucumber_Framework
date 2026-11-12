@@ -1,0 +1,27 @@
+{
+    "default": {
+        "tags": "@smoke",
+        "formatOptions": {
+            "FORCE_COLOR": true,
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "src/test/features/*.feature"
+        ],
+        "publishQuiet": true,
+        "require": [
+            "src/test/steps/*.ts",
+            "src/test/utility/hooks.ts"
+        ],
+        "dryRun": false,
+        "requireModule": ["tsx/cjs"],
+    
+        "timeout": 10000,
+        "format": ["html:reports/cucumber-report.html",
+                    "progress-bar",
+                    "json:reports/cucumber-report.json" ,
+                    "rerun:reports/rerun.txt"        
+    ],
+    "parallel" : 2
+    }
+}
